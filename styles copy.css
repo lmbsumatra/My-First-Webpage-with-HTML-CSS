@@ -154,3 +154,35 @@ body {
     background-color: #333333;
     color: white;
 }
+
+#portfolio {
+    /* background-color: #ededed; */
+    width: 90%;
+    margin:  50px auto;
+    overflow: hidden;
+}
+
+.py-proj div,
+.mobile-designs div,
+.text-illus div {
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.py-proj div:hover,
+.mobile-designs div:hover,
+.text-illus div:hover {
+    box-shadow: 5px 5px 50px #9a9a9a;
+}
+
+.py-proj img,
+.mobile-designs img,
+.text-illus img {
+    max-height: 200px;
+    height: 100%;
+}
