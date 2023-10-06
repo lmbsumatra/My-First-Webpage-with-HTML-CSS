@@ -3,72 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Ecrypt and Decrypt Application</title>
 </head>
-<body style="font-family:Arial, Helvetica, sans-serif">
-    <a href="../my-portfolio.html#py-projs-section">Back</a>
+<body>
 
-    <div>
-        <center>
+    <nav id="navbar">
+        <div class="container">
+            <a href="../index.html#portfolio" class="py-proj_1--back-btn">Back</a>
+        </div>
+    </nav>
+    
+
+    <div id="py-proj" class="section-margin">
+        <div class="container">
             <h2>Ecrypt and Decrypt Application [GUI Based]</h2>
-            <div style="overflow-x:auto;">
-                <table width="75%" >
+            <div class="table__img">
+                <table>
                     <tr>
                         <td>
-                            <center><img src="../python-projs/encrypt-decrypt/img_1.png" alt="Encrypt - Decrypt Project, Image 1"></center>
+                            <img src="../python-projs/encrypt-decrypt/img_1.png" alt="Encrypt - Decrypt Project, Image 1">
                         </td>
 
                         <td>
-                            <center><img src="../python-projs/encrypt-decrypt/img_2.png" alt="Encrypt - Decrypt Project, Image 2"></center>
+                            <img src="../python-projs/encrypt-decrypt/img_2.png" alt="Encrypt - Decrypt Project, Image 2">
                         </td>
 
                         <td>
-                            <center><img src="../python-projs/encrypt-decrypt/img_3.png" alt="Encrypt - Decrypt Project, Image 3"></center>
+                            <img src="../python-projs/encrypt-decrypt/img_3.png" alt="Encrypt - Decrypt Project, Image 3">
                         </td>
                     </tr>
                 </table>
             </div>
-       
+        </div>
+        <!-- Project Details -->
+        <div>
+            <table class="table__desc">
+                <tr>
+                    <td>
+                        <h3>Description</h3>
+                        <p>Developing a Graphical User Interface (GUI) application for encryption and decryption constitutes one of our projects. This involves providing users with a unique encryption method, which we've created ourselves.</p>
+                    </td>
+                </tr>
 
-            <!-- Project Details -->
-            <div>
-                <center>
-                    <table width="80%" border="1">
-                        <tr>
-                            <td>
-                                <h3>Description</h3>
-                                <p>Developing a Graphical User Interface (GUI) application for encryption and decryption constitutes one of our projects. This involves providing users with a unique encryption method, which we've created ourselves.</p>
-                            </td>
-                        </tr>
+                <tr>
+                    <td>
+                        <h4>Purpose</h4>
+                        <p>For user to have a unique cryptography which he may use for sending a confidential message that only allows the his intended receiver to read.</p>
+                    </td>
+                </tr>
 
-                        <tr>
-                            <td>
-                                <h4>Purpose</h4>
-                                <p>For user to have a unique cryptography which he may use for sending a confidential message that only allows the his intended receiver to read.</p>
-                            </td>
-                        </tr>
+                <tr>
+                    <td>
+                        <h4>Users' Benefit</h4>
+                        <p>Users may be able to encrypt and decrypt message using the application. He is also allowed to use copy button so that the encrypted message will not be messed up in copying. Lastly, after encrypting and decrypting, he can clear the message.</p>
+                    </td>
+                </tr>
 
-                        <tr>
-                            <td>
-                                <h4>Users' Benefit</h4>
-                                <p>Users may be able to encrypt and decrypt message using the application. He is also allowed to use copy button so that the encrypted message will not be messed up in copying. Lastly, after encrypting and decrypting, he can clear the message.</p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <h4>Features</h4>
-                                <ul>
-                                    <li>Text Encryption and Decryption</li>
-                                    <li>Multi-level cryptography</li>
-                                    <li>Easy to use</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </table>
-                </center>
-            </div> 
-        </center>
+                <tr>
+                    <td>
+                        <h4>Features</h4>
+                        <ul>
+                            <li>Text Encryption and Decryption</li>
+                            <li>Multi-level cryptography</li>
+                            <li>Easy to use</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div> 
     </div>
 </body>
 </html>
