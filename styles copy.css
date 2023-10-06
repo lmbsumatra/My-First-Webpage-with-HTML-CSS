@@ -1,188 +1,143 @@
-
-
-/*
---font-color
-#333333
-#9a9a9a
-#dddddd
-
--- background
-#dddddd
-#ededed
-#fdfdfd
-*/
-
-/* # # # # # # # # # # General # # # # # # # # # # */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    background-color: #fdfdfd;
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #333333;
+  font-family: 'Inter', sans-serif;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* # # # # # # # # # # Header # # # # # # # # # # */
-.header {
-    background-color: #dddddd;
-}
-
-.header h2 {
-    color: #333333;
-    
-}
-
-/* # # # # # # # # # # Navigation Bar # # # # # # # # # # */
+/* # # # # # # # # # Navigation Bar # # # # # # # # # */
 
 #navbar {
-    background-color: #9a9a9a;
+  width: 100%;
+  height: 60px;
+  box-shadow: #2b2a2a 2px 2px 5px;
 }
 
-#navbar ul{
-    list-style: none;
-    padding: 0;
-    
-}
-
-#navbar li {
-    display: inline;
-    padding-right: 19%;  
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  text-transform: uppercase;
+  padding: 0 7.4vw;
 }
 
 #navbar a {
-    color: #fdfdfd;
-    text-decoration: none;
-    font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #FDFDFD;
+  font-size: 16px;
 }
 
-#navbar a:hover {
-    color: #dddddd;
-}
-
-/* # # # # # # # # # # Hero Section # # # # # # # # # # */
-#hero-section {
-    color: #333333;
-    height: 100%;
-    min-height: 500px;
-    /* background-color: pink; */
-}
+/* # # # # # # # # # Hero Section # # # # # # # # # */
 
 #hero-section {
-    text-align: center;
-    padding-top: 50px;
-    display: block;
+  width: auto;
+  margin: 64px 100px;
+  text-align: center;
+  padding: 50px 0;
 }
 
-#hero-section h4, 
-#hero-section h1, 
-#hero-section p,
-#hero-section .hero-section__button{
-    margin: 40px;
+.hero-section__left span {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #9A9A9A;
+  font-weight: 600;
+  display: inline-block;
 }
 
-#hero-section h1 {
-    font-size: 5vh;
+.hero-section__left h1 {
+  font-size: 3rem;
+  color: #FDFDFD;
 }
 
-#hero-section h4 {
-    font-size: 4vh;
-    font-weight: 100;
+.hero-section__left p {
+  font-size: 18px;
+  color: #DDDDDD;
 }
 
-.hero-section__button a {
-    background-color: white;
-    border-radius: 40px;
-    border: #333333 solid 0.5px;
-    color: #333333;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
+.button {
+  border-radius: 40px;
+  background-color: #FDFDFD;
+  padding: 10px 34px;
+  display: inline-block;
+  line-height: 30px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14); */
 }
 
-.hero-section__button a:hover{
-    background-color: #333333;
-    color: white;
+.button a {
+  background-color: transparent;
+  text-decoration: none;
+  color: #333333;
+  letter-spacing: 2px;
 }
 
-/* # # # # # # # # # # About me Section # # # # # # # # # # */
+.hero-section__left span,
+.hero-section__left h1,
+.hero-section__left p,
+.hero-section__left-btn {
+  margin: 0 0 40px 0;
+}
 
+/* # # # # # # # # # About me Section # # # # # # # # # */
 #about-me {
-    height: 100%;
+  margin: 2.2vw 7.4vw;
+  color: #FDFDFD;
 }
 
-.about-me__p, 
-.about-me__addt > div {
-    border: 1px #9a9a9a solid;
-    padding: 10px;
-    margin: 10px;
-    display: block;
+#about-me h3 {
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  color: #9A9A9A;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 
-.about-me__p img {
-    max-width: 40vh;
-    width: 100%;
-    height: auto;
-    border-radius: 100%;
-    float: right;
+.about-me__journey {
+  margin: 30px 3.7vw;
 }
 
-.about-me__addt > div {
-    float: left;
-    max-width: 250px;
-    width: 100%;
-    height: auto;
-    background-color: #dddddd;
-    border-radius: 25px;
-    height: 250px;
-    padding: 15px 30px;
+.about-me__journey img {
+  float: right;
+  border-radius: 50%;
+  background-color: #FDFDFD;
+  height: 28.7vw;
+  width: auto;
+  margin-left: 30px;
 }
 
-.about-me__addt-cv-button a {
-    background-color: white;
-    border-radius: 40px;
-    border: #333333 solid 0.5px;
-    color: #333333;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
+.about-me__journey h2 {
+  font-size: 30;
+  font-weight: 600;
 }
 
-.about-me__addt-cv-button a:hover{
-    background-color: #333333;
-    color: white;
+.about-me__journey h2,
+.about-me__journey h4 {
+  padding-bottom: 10px;
+  font-weight: 500;
 }
 
-#portfolio {
-    /* background-color: #ededed; */
-    width: 90%;
-    margin:  50px auto;
-    overflow: hidden;
+.about-me__journey em,
+.about-me__journey p {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: 200;
 }
 
-.py-proj div,
-.mobile-designs div,
-.text-illus div {
-    background-color: white;
-    display: inline-block;
-    margin: 10px;
-    padding: 30px 20px;
-    border-radius: 25px;
-    text-align: center;
-    max-width: 300px;
+.about-me__addt .box {
+  border-radius: 15px;
+  display: inline-block;
+  width: 250px;
+  max-width: 100%;
+  height: 250px;
+  vertical-align: middle;
+  padding: 20px;
+  box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+  margin: 10px 10px;
 }
 
-.py-proj div:hover,
-.mobile-designs div:hover,
-.text-illus div:hover {
-    box-shadow: 5px 5px 50px #9a9a9a;
-}
-
-.py-proj img,
-.mobile-designs img,
-.text-illus img {
-    max-height: 200px;
-    height: 100%;
+.about-me__addt-skills ul {
+  padding: 0 20px;
 }

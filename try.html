@@ -4,173 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles copy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>MISSY</title>
 </head>
 <body>
-    <!-- # # # # # # # # # # Header Section # # # # # # # # # # -->
-    <header class="header">
-        <div class="container">
-            <h2>
-                Website Portfolio
-            </h2>
-        </div>
-    </header>
 
     <!-- # # # # # # # # # # Navigation Bar # # # # # # # # # # -->
     <nav id="navbar">
         <div class="container">
-            <ul>
-                <li><a href="my-portfolio-2.html">Home</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#footer">Contact</a></li>
-            </ul>
+            <a href="my-portfolio-2.html" class="active">Home</a>
+            <a href="#about-me">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#footer">Contact</a>
         </div>
     </nav>
 
     <!-- # # # # # # # # # # Hero Section # # # # # # # # # # -->
     <section id="hero-section">
         <div class="container">
-            <h4>Hey there!<br>I am Missy Sumatra</h4>
+            <div class="hero-section__left">
+                <span>
+                    Hi there <br> I am Missy Sumatra
+                </span>
 
-            <h1>Exploring art, fancying typography, and <br>diving into the sea of code</h1>
+                <h1>Exploring art, fancying typography,<br> and diving into the sea of code</h1>
 
-            <p>Discovering art's beauty, cherishing typography, and plunging into code's depths<br>—my journey of passion unfolds in these diverse creative realms.</p>
+                <p>
+                    Discovering art's beauty, cherishing typography, and plunging into code's depths <br>
+                    —my journey of passion unfolds in these diverse creative realms.
+                </p>
 
-            <div class="hero-section__button"><a href="#about-me" >About me</a></div>
+                <div class="hero-section__left-btn button">
+                    <a href="#about-me">About me</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- # # # # # # # # # # About me Section # # # # # # # # # # -->
     <section id="about-me">
         <div class="container">
-            <section class="about-me__p">
-                <div class="about-me__p-story">
-                    <img src="header-img.jpg" alt="My profile image">
-                    <h3>Hello, I'm Missy</h3>
-                    <em>IT Student</em>
+            <h3>About me</h3>
 
-                    <h4>My Journey</h4>
-                    <p>
-                        My curiosity about how things are built led me to pursue a program in Information Technology. Currently, I am in my 3<sup>rd</sup> year of college, applying the knowledge that has been imparted to me. I view challenges as stepping stones on my journey to becoming an IT professional, opening doors to various opportunities and unraveling things that are meant for me.
-                    </p>
+            <div class="about-me__journey">
+                <img src="header-img.png" alt="" class="about-me__img">
+                <h2>Hello, I'm Missy</h2>
 
-                    <h4>Life outside the Screen</h4>
-                    <p>
-                        Outside of school, away from the keyboard and mouse, I find solace in creating art through various media forms. Engaging in crafts and appreciating the artistic endeavors of others in different forms widens my horizons, igniting my curiosity even further. My biggest dream is to experience life beyond the images on the internet.
-                    </p>
+                <em>IT Student</em>
 
+                <h4>My Journey</h4>
+                <p>
+                    My curiosity about how things are built led me to pursue a program in Information Technology. Currently, I am in my 3rd year of college, applying the knowledge that has been imparted to me. I view challenges as stepping stones on my journey to becoming an IT professional, opening doors to various opportunities and unraveling things that are meant for me.
+                </p>
+
+                <h4>Life outside the Screen</h4>
+                <p>
+                    Outside of school, away from the keyboard and mouse, I find solace in creating art through various media forms. Engaging in crafts and appreciating the artistic endeavors of others in different forms widens my horizons, igniting my curiosity even further. My biggest dream is to experience life beyond the images on the internet.
+                </p>
+            </div>
+
+            <div class="about-me__addt">
+                <div class="about-me__addt-skills box">
+                    <p>Skills & Tools </p>
+                    <ul>
+                        <li>Basic HTML</li>
+                        <li>Basic CSS</li>
+                        <li>Basic Python</li>    
+                    </ul>
                 </div>
-            </section>
-            
-            <section class="about-me__addt">
-                    <div class="about-me__addt-skills">
-                        <h4>Skills & Tools</h4>
-                        <ul>
-                            <li>Basic HTML</li>
-                            <li>Basic CSS</li>
-                            <li>Basic Python</li>
-                        </ul>
+
+                <div class="about-me__addt-collab box">
+                    <p>Let's Collaborate</p>
+                    <p>
+                        If you believe our minds are aligned, perhaps we could engage in a conversation and collaborate on your vision. Please don't hesitate to contact me. You can send a message to my email at hellosyve@gmail.com, or for more details, click here.
+                    </p>
+                </div>
+
+                <div class="about-me__addt-cv box">
+                    <p>
+                        For my CV, simply click the download button below to learn more about me.
+                    </p>
+
+                    <div class="about-me__addt button">
+                        <a href="#about-me">Download</a>
                     </div>
-                    
-
-                    <div class="about-me__addt-inq">
-                        <h4>Let's Collaborate</h4>
-                        <p>
-                            If you believe our minds are aligned, perhaps we could engage in a conversation and collaborate on your vision. Please don't hesitate to contact me. You can send a message to my email at <strong>hellosyve@gmail.com</strong>, or for more details, <a href="#footer">click here</a>.
-                        </p>
-                   </div>
-                   
-                   <div class="about-me__addt-cv">
-                        <p>For my CV, simply click the download button below to learn more about me.</p>
-                        <br><br>
-                        <div class="about-me__addt-cv-button"><a href="sumatra-cv.pdf">Download</a></div>
-                    </div>         
-                    
                 </div>
-            </section>
+            </div>
         </div>
+        
     </section>
+            
 
     <!-- # # # # # # # # # # Portfolio Section # # # # # # # # # # -->
     <section id="portfolio">
-        <div class="container">
-            <h1>
-                Projects
-            </h1>
-
-            <!-- Python Projects -->
-            <section class="py-proj">
-                <h3>Python Projects</h3>
-                <div>
-                    <a href="python-projs/py-proj_1.html">
-                        <img src="python-projs/img_1.png"alt="Python Project 1">
-                    </a>
-                    <figcaption>Encrypt - Decrypt Application</figcaption>
-                    <br>
-                    <a href="https://github.com/lmbsumatra/encrypt-decrypt" target="_blank">
-                        <input type="button" value="Github Repo">
-                    </a>
-                    <p>Click the image to see more about the project.</p>
-                </div>
-
-                <div>
-                    <a href="python-projs/py-proj_2.html">
-                        <img src="python-projs/img_2.png" alt="Python Project 2">
-                    </a>
-                    <figcaption>Simple ATM Application</figcaption>
-                    <br>
-                    <a href="https://github.com/lmbsumatra/atm-proj" target="_blank">
-                        <input type="button" value="Github Repo">
-                    </a>
-                    <p>Click the image to see more about the project.</p>
-                </div>
-            </section>
-            <br>
-            <!-- Mobile App Designs -->
-            <section class="mobile-designs">
-                <h3>Mobile App Designs</h3>
-
-                <div>
-                    <a href="mobile-app/checkmate-design.html">
-                        <img src="mobile-app/checkmate/img_1.png" alt="Python Project 1">
-                    </a>
-                    <figcaption>Check Mobile App Design</figcaption>
-                    <p>Click the image to see more about the project.</p>
-                </div>
-
-                <div>
-                    <a href="mobile-app/homitel-design.html">
-                        <img src="mobile-app/homitel/img_4.png"  alt="Python Project 2">
-                    </a>
-                    <figcaption>Homitel Mobile App Design</figcaption>
-                    <p>Click the image to see more about the project.</p>
-                </div>
-            </section>
-            
-            <!-- Text Illustrations -->
-            <section class="text-illus">
-                <h3>Text Illustrations</h3>
-
-                <div>
-                    <img src="text-illustrations/img_1.png" alt="Typography 1">
-                    <figcaption>Typography 1</figcaption>
-                    <a href="text-illustrations/img_1.png" target="_blank">Click the here to see full image</a>
-                </div>
-
-                <div>
-                    <img src="text-illustrations/img_2.png" alt="Typography 2">
-                    <figcaption>Typography 2</figcaption>
-                    <a href="text-illustrations/img_2.png" target="_blank">Click the here to see full image</a>
-                </div>
-
-                <div>
-                    <img src="text-illustrations/img_3.png" alt="Typography 3">
-                    <figcaption>Typography 3</figcaption>
-                    <a href="text-illustrations/img_3.png" target="_blank">Click the here to see full image</a>
-                </div>
-            </section>
-        </div>
+        
     </section>
+
+    <!-- # # # # # # # # # # Footer Section # # # # # # # # # # -->
+    <footer id="footer">
+        
+    </footer>
 </body>
 </html>

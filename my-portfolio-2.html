@@ -8,13 +8,13 @@
 </head>
 <body>
     <!-- # # # # # # # # # # Header Section # # # # # # # # # # -->
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
             <h2>
                 Website Portfolio
             </h2>
         </div>
-    </header>
+    </header> -->
 
     <!-- # # # # # # # # # # Navigation Bar # # # # # # # # # # -->
     <nav id="navbar">
@@ -31,10 +31,13 @@
     <!-- # # # # # # # # # # Hero Section # # # # # # # # # # -->
     <section id="hero-section">
         <div class="container">
-            <h4>Hey there. <br> <br>Welcome to my website portfolio!</h4>
-            <h1>Exploring art, fancying typography, and <br>diving into the sea of code.</h1>
+            <h4>Hey there!<br>I am Missy Sumatra</h4>
+
+            <h1>Exploring art, fancying typography, and <br>diving into the sea of code</h1>
+
             <p>Discovering art's beauty, cherishing typography, and plunging into code's depths<br>—my journey of passion unfolds in these diverse creative realms.</p>
-            <a href="#about">Click here to know more about me!</a>
+
+            <div class="hero-section__button"><a href="#about-me" >About me</a></div>
         </div>
     </section>
 
@@ -42,7 +45,8 @@
     <section id="about-me">
         <div class="container">
             <section class="about-me__p">
-                <div>
+                <div class="about-me__p-story">
+                    <img src="header-img.jpg" alt="My profile image">
                     <h3>Hello, I'm Missy</h3>
                     <em>IT Student</em>
 
@@ -51,35 +55,38 @@
                         My curiosity about how things are built led me to pursue a program in Information Technology. Currently, I am in my 3<sup>rd</sup> year of college, applying the knowledge that has been imparted to me. I view challenges as stepping stones on my journey to becoming an IT professional, opening doors to various opportunities and unraveling things that are meant for me.
                     </p>
 
-                    <h4>Skills & Tools</h4>
-
-                    <ul>
-                        <li>Basic HTML</li>
-                        <li>Basic CSS</li>
-                        <li>Basic Python</li>
-                    </ul>
-                    
                     <h4>Life outside the Screen</h4>
                     <p>
                         Outside of school, away from the keyboard and mouse, I find solace in creating art through various media forms. Engaging in crafts and appreciating the artistic endeavors of others in different forms widens my horizons, igniting my curiosity even further. My biggest dream is to experience life beyond the images on the internet.
                     </p>
 
-                    <h4>Let's Collaborate</h4>
-                    <p>
-                        If you believe our minds are aligned, perhaps we could engage in a conversation and collaborate on your vision. Please don't hesitate to contact me. You can send a message to my email at <strong>hellosyve@gmail.com</strong>, or for more details, <a href="#footer">click here</a>.
-                    </p>
-
-                    <p>For my CV, simply click the download button below to learn more about me.</p>
-
-                    <a href="sumatra-cv.pdf"><input type="button" value="Download CV"></a>
                 </div>
-                
             </section>
-        
+            
+            <section class="about-me__addt">
+                    <div class="about-me__addt-skills">
+                        <h4>Skills & Tools</h4>
+                        <ul>
+                            <li>Basic HTML</li>
+                            <li>Basic CSS</li>
+                            <li>Basic Python</li>
+                        </ul>
+                    </div>
+                    
 
-            <section class="about-me__img">
-                <div>
-                    <img src="header-img.jpg" alt="My profile image">
+                    <div class="about-me__addt-inq">
+                        <h4>Let's Collaborate</h4>
+                        <p>
+                            If you believe our minds are aligned, perhaps we could engage in a conversation and collaborate on your vision. Please don't hesitate to contact me. You can send a message to my email at <strong>hellosyve@gmail.com</strong>, or for more details, <a href="#footer">click here</a>.
+                        </p>
+                   </div>
+                   
+                   <div class="about-me__addt-cv">
+                        <p>For my CV, simply click the download button below to learn more about me.</p>
+                        <br><br>
+                        <div class="about-me__addt-cv-button"><a href="sumatra-cv.pdf">Download</a></div>
+                    </div>         
+                    
                 </div>
             </section>
         </div>
@@ -172,7 +179,7 @@
            <h2>Contact Me</h2>
 
             <!-- Contact Form -->
-            <section class="footer-contact">
+            <div class="footer-contact">
                 <form  action="thankyou-page.html">
                     <fieldset>
                         <legend>Fill up completely</legend>
@@ -215,20 +222,19 @@
                         <input type="reset">
                     </fieldset>
                 </form>
-            </section>
+            </div>
             
 
             <!-- Socials -->
-            <section class="footer-socials">
+            <div class="footer-socials">
                 <h2>Keep in Touch</h2>
                 <a href="https://www.facebook.com/lmbsumatra" target="_blank"><img src="facebook-logo.svg" alt="Facebook-Logo" height="30px"/></a>
 
                 <a href="https://www.instagram.com/hellosyve/" target="_blank"><img src="ig-logo.svg" alt="Instagram-Logo" height="30px"/></a>
-            </section>
+            </div>
             <br> 
 
         </div>
     </footer>
-
 </body>
 </html>
