@@ -181,6 +181,7 @@
   height: auto;
   width: auto;
   margin-bottom: 32px;
+  overflow: hidden;
 }
 
 #portfolio .proj,
