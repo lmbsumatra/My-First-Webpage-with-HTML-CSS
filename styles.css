@@ -217,8 +217,8 @@
 }
 
 #portfolio img {
-  height: 30vh;
-  width: auto;
+  height: auto;
+  width: 230px;
   margin: 10px;
 }
 
