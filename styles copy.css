@@ -1,8 +1,32 @@
+/* # # # # # # # # # General # # # # # # # # # */
 * {
   padding: 0;
   margin: 0;
   background-color: #333333;
   font-family: 'Inter', sans-serif;
+  color: #fdfdfd;
+}
+
+.button {
+  border-radius: 40px;
+  background-color: #FDFDFD;
+  padding: 10px 34px;
+  display: inline-block;
+  line-height: 30px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-margin {
+  margin: 2.2vw 7.4vw;
+  color: #FDFDFD;
+}
+
+.section-title {
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  color: #9A9A9A;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 
 /* # # # # # # # # # Navigation Bar # # # # # # # # # */
@@ -30,10 +54,8 @@
 }
 
 /* # # # # # # # # # Hero Section # # # # # # # # # */
-
 #hero-section {
-  width: auto;
-  margin: 64px 100px;
+  margin: 64px 7.4vw;
   text-align: center;
   padding: 50px 0;
 }
@@ -56,16 +78,6 @@
   color: #DDDDDD;
 }
 
-.button {
-  border-radius: 40px;
-  background-color: #FDFDFD;
-  padding: 10px 34px;
-  display: inline-block;
-  line-height: 30px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  /* box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14); */
-}
-
 .button a {
   background-color: transparent;
   text-decoration: none;
@@ -81,19 +93,6 @@
 }
 
 /* # # # # # # # # # About me Section # # # # # # # # # */
-#about-me {
-  margin: 2.2vw 7.4vw;
-  color: #FDFDFD;
-}
-
-#about-me h3 {
-  padding-bottom: 30px;
-  text-transform: uppercase;
-  color: #9A9A9A;
-  letter-spacing: 2px;
-  font-weight: 500;
-}
-
 .about-me__journey {
   margin: 30px 3.7vw;
 }
@@ -141,3 +140,9 @@
 .about-me__addt-skills ul {
   padding: 0 20px;
 }
+
+.about-me__addt-cv .button {
+  margin: 20px;
+}
+
+/* # # # # # # # # # Porfolio # # # # # # # # # */
